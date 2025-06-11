@@ -23,7 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore the Python scripts folder
-/scripts/
+/scripts/LTCH-Data.csv
+/scripts/generate_care_data.py
 
 # Ignore the generated data file
 /src/ontarioCareHomes.js
