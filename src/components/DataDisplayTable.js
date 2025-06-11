@@ -6,6 +6,7 @@ import SortIcon from "./common/SortIcon"; // Import SortIcon component from the 
 /**
  * DataDisplayTable Component
  * Renders the table displaying care home data, including sortable headers.
+ * Enhanced for mobile to allow horizontal scrolling.
  *
  * @param {object} props - The component props.
  * @param {Array<object>} props.items - The array of care home objects to display in the table.
@@ -39,7 +40,8 @@ const DataDisplayTable = ({
   );
 
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+    // Added 'overflow-x-auto' to make the table horizontally scrollable on small screens
+    <div className="bg-white rounded-xl shadow-lg overflow-x-auto">
       <table className="min-w-full divide-y divide-gray-200">
         <thead className="bg-gray-50">
           <tr>

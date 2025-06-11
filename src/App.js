@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect, useRef } from "react";
 
 // Import all your new component files from the 'components' folder
 // ENSURE THESE PATHS EXACTLY MATCH YOUR FILE LOCATIONS
+import ontarioCareHomes from "./ontarioCareHomes.js";
 import HomeDetailsModal from "./components/HomeDetailsModal";
 import FAQ from "./components/FAQ";
 import Legal from "./components/Legal";
@@ -53,7 +54,7 @@ export default function App() {
   // 2. Delete or comment out this entire 'ontarioCareHomes' useMemo block.
   // 3. Uncomment an import statement at the top like:
   //    import ontarioCareHomes from './ontarioCareHomes.js';
-  const ontarioCareHomes = useMemo(
+  /*const ontarioCareHomes = useMemo(
     () => [
       // Data sourced from RHRA and MOH Public Reporting for Ontario
       // Minimal sample data for quick testing
@@ -194,7 +195,7 @@ export default function App() {
       },
     ],
     []
-  );
+  );*/
 
   // useEffect to handle initial loading state (can be removed if no async fetch)
   useEffect(() => {

@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore the Python scripts folder
+/scripts/
+
+# Ignore the generated data file
+/src/ontarioCareHomes.js
