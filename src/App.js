@@ -453,7 +453,7 @@ export default function App() {
         <header className="bg-white shadow-md">
           <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
             <h1 className="text-3xl font-bold text-indigo-700 mb-2 sm:mb-0">
-              Ontario SeniorCare Compass
+              Senior Care Ontario
             </h1>
             {/* Main Navigation */}
             <nav className="space-x-4">
